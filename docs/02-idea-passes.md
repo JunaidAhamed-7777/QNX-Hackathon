@@ -5,13 +5,15 @@ Research date: 4 November 2026. The goal is one novel, useful project with natur
 | Idea | Core proposition | Natural applicability | Best primary category | Decisive risk |
 | --- | --- | --- | --- | --- |
 | **Faultline** | Turn a failure sequence into an executable contract, minimized reproducer and before/after evidence | Host tools, native services, simulated robotics and mobility | Developer Tooling & Host Tools | Becoming a thin profiler dashboard |
-| **LeaseLine** | A command-lease/session protocol rejects commands left over after service restart | Robot controllers, mobility, medical-equipment simulation, IPC | Low-level Software | Protocol correctness and recovery corner cases |
+| **LeaseLine** | A command-lease/session protocol rejects commands left over after service restart | Robot controllers, mobility, medical-equipment simulation, IPC | Developer Tooling & Host Tools, if delivered as a reusable test/validation tool | Protocol correctness and recovery corner cases |
 | **Boundary** | A native execution boundary rejects stale or invalid commands from an unreliable planner | Robotics and mobility, process isolation, security | Robotics & Medical or Automotive & Mobility | Familiar safety-supervisor pitch; excessive autonomy scope |
 | **PortPassport** | Executable Linux-to-QNX compatibility evidence plus one useful real port | OSS ports, build tooling, native libraries | Open-Source Contribution & Ports | Choosing a worthwhile unported library and proving usefulness |
 | **Virtual I/O Forge** | Faultable virtual devices built as QNX resource managers | Device testing, robots, mobility, simulated medical interfaces | Developer Tooling & Host Tools | An isolated device simulator may lack a strong story |
 | **Priority Lens** | Explain observed scheduling/IPC deadline failures with source-linked evidence | Low-level performance, native services, host debugging | Developer Tooling & Host Tools | Duplicating Momentics and overstating causality |
-| **Capability Rehearsal** | Test least-privilege service policies and explain denied operations | Native security, developer education, host tools | Low-level Software | Privilege complexity and existing policy generators |
+| **Capability Rehearsal** | Test least-privilege service policies and explain denied operations | Native security, developer education, host tools | Developer Tooling & Host Tools, if delivered as a reusable test/validation tool | Privilege complexity and existing policy generators |
 | **Alarm Commons** | Reproducible arbitration of competing simulated alarms under overloaded services | Medical simulation, robots, low-level scheduling | Robotics & Medical | Weak domain validation and safety claims |
+
+Category assessments above are conditional on the finished implementation. The official **Low-level Software** category means board-support components or QNX DDK device drivers, not generic IPC, protocols or security. LeaseLine's proposed tooling fit requires a reusable validation product, not only a protocol library. Domain simulations alone do not establish Robotics & Medical or Automotive & Mobility eligibility. [Category definitions](https://qnx.devpost.com/rules).
 
 ### Breadth test
 A strong broad idea shares a mechanism across applications. Faultline's failure-contract engine could test either a native server or a synthetic sensor pipeline. A separate robot game, medical dashboard and vehicle simulator would not be genuine breadth.
@@ -68,8 +70,8 @@ Select one hero after real target experiments. Start with the smaller native IPC
 
 ### Prize-category breadth
 - Primary: **Developer Tooling & Host Tools**.
-- Genuine technical connection: **Low-level Software**, through QNX IPC/state semantics.
-- Demonstration connection: **Robotics & Medical** and **Automotive & Mobility**, using a synthetic sensor/controller workload, without clinical or vehicle-safety claims.
+- Technical depth: native QNX IPC/state semantics. This is **not** a claim of eligibility for the named Low-level Software award, which requires board-support or DDK driver work.
+- Demonstration connection: **Robotics & Medical** and **Automotive & Mobility**, using a synthetic sensor/controller workload, without clinical or vehicle-safety claims. These examples show applicability, not automatic eligibility for either named category.
 - Reusability: public original source and a clean adapter interface may help the OSS community, but no port award is claimed without a substantive qualifying port.
 - Bonus evidence: a runnable codelab and meaningful QNX-specific behavior.
 
