@@ -72,9 +72,9 @@ Date: 4 November 2026. These are five distinct design-review passes performed be
 - 2:05–2:35: show the reusable adapter or second workload, if complete.
 - 2:35–2:55: open the bundle, replay command, source and tutorial.
 
-This is a proposed storyboard, not recorded evidence.
+This is a proposed storyboard, not recorded evidence. The finished demonstration must be uploaded to YouTube and publicly visible, with its URL in the submission. [Video requirements](https://qnx.devpost.com/rules).
 
-**Category decision:** Developer Tooling & Host Tools remains primary. Low-level behavior is substantive. The synthetic domain scenario explains impact. Open-source availability is useful but does not substitute for a qualifying port. The rules permit one Overall prize and one Bonus, not simultaneous category sweeps.
+**Category decision:** Developer Tooling & Host Tools remains primary. Native IPC behavior provides technical depth but does not satisfy the named Low-level Software category's board-support/DDK-driver definition. The synthetic domain scenario explains impact, not automatic robotics or mobility category eligibility. Open-source availability is useful but does not substitute for a qualifying port. The rules permit one Overall prize and one Bonus, not simultaneous category sweeps.
 
 **Tutorial decision:** Build a self-contained “QNX cancellation failure to reproducible regression test” codelab, with expected output, troubleshooting and an explanation of what QEMU does not prove. The tutorial must teach something even to a reader who never uses the UI.
 
