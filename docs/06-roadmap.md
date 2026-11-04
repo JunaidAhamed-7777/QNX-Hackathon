@@ -101,7 +101,7 @@ Tasks:
 
 Tasks:
 - Re-read current event rules and verify primary category and allowed bonus choices.
-- Record a truthful public demonstration under three minutes.
+- Record a truthful demonstration under three minutes, upload it to YouTube and make it publicly visible; use that verified URL in the submission.
 - Show actual QNX target evidence, baseline violation, reducer trials and corrected outcome.
 - Finalize project description: problem, differentiation, QNX-specific implementation, scope, limitations and future work.
 - Verify public source, license, README, tutorial and video links.
@@ -115,6 +115,13 @@ Tasks:
 **Target:** December 13–15; official cutoff December 16 at 00:30 IST.
 
 Use the buffer for defects and upload issues, not new scope. Verify submission receipt and final entry contents; distinguish saved draft from submitted entry. Record final repository commit, video URL, submitted category and timestamp. Do not assume a welcome email proves project submission.
+
+## Phase 8 — Preserve evaluation access
+**Target:** submission through **30 January 2027, 03:30 IST** (29 January, 5:00 p.m. EST).
+
+Keep the working project, public source, instructions, tutorial and YouTube demonstration accessible for evaluation, without charging or restricting the judges. Preserve the submitted revision and reproducible dependencies while respecting QNX redistribution rights. Resolve any access conflict before submission rather than promising access the license does not permit. Judging and community voting run January 15–29, 2027; the announced winner date is around February 4, 2:00 p.m. EST (February 5, 00:30 IST). [Official dates and testing obligations](https://qnx.devpost.com/rules).
+
+**Exit gate:** the judging period has ended and the submitted artifacts and working project remained available throughout it. This planning milestone does not establish that any deployment or monitoring has already been arranged.
 
 ## Acceptance checklist
 ### Functional
@@ -139,8 +146,9 @@ Use the buffer for defects and upload issues, not new scope. Verify submission r
 - [ ] Novelty is stated as a substantiated differentiator, not “first ever.”
 - [ ] Broad applicability comes from the shared engine.
 - [ ] Codelab is independently useful.
-- [ ] Video is public and under three minutes.
+- [ ] YouTube video is publicly visible and under three minutes.
 - [ ] All links and final submission state are verified.
+- [ ] Working-project access is planned through January 30, 2027 at 03:30 IST.
 
 ## Implementation boundary
 This roadmap authorizes no purchases, new credentials, license acceptance or security changes by itself. The present assignment was research and planning. Begin implementation only under applicable user authorization and required setup approvals. Keep ongoing unrelated OSS contribution work separate so this project does not consume or duplicate its rotation.
