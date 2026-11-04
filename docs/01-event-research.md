@@ -9,12 +9,14 @@ The [official rules](https://qnx.devpost.com/rules) set the submission deadline 
 
 The rules require entrants to be at least 18. India is not listed among the excluded locations in the rules reviewed; the participant's stated age of 20 appears eligible. Recheck the live rules before submission. Other eligibility exclusions and team requirements still apply. The event is free to enter; this does not imply free cloud execution or unrestricted software licensing.
 
+Judging and community voting run **15 January 2027, 10:00 a.m. EST to 29 January, 5:00 p.m. EST** (15 January 20:30 IST to **30 January 03:30 IST**). Winners are scheduled around **4 February, 2:00 p.m. EST** (5 February 00:30 IST). Keep the working project freely available to the evaluators without restrictions through the judging end; submission day is not the end of the access obligation. [Official dates and testing requirements](https://qnx.devpost.com/rules).
+
 ## The prize strategy
 The [rules, particularly sections 4, 6 and 8](https://qnx.devpost.com/rules), require **one primary submission category**. A project may receive at most one Overall prize, one Bonus prize, and Community Choice. It cannot accumulate the five category prizes, combine Grand Prize with another Overall prize, or collect both $3,500 bonuses.
 
 The largest listed cash combination for one submission is $10,000 Grand Prize + one $3,500 bonus = $13,500. This is a rules-based ceiling, not an expected return or prediction. The supplied prize list is preserved in [initial.md](initial.md).
 
-**Recommended entry:** Developer Tooling & Host Tools. Demonstrate naturally reusable low-level, robotics and mobility applications of the same engine. A strong QNX-specific mechanism and an independently useful codelab provide two possible bonus routes, but only one can be awarded. A reusable source repository is not automatically an Open-Source Contribution & Ports entry.
+**Recommended entry:** Developer Tooling & Host Tools. Demonstrate naturally reusable low-level, robotics and mobility applications of the same engine. A strong QNX-specific mechanism and an independently useful codelab provide two possible bonus routes, but only one can be awarded. A reusable source repository is not automatically an Open-Source Contribution & Ports entry. The named **Low-level Software** category specifically covers board-support components or QNX DDK device drivers; native IPC depth alone does not qualify. Synthetic robotics/mobility examples demonstrate applicability, not automatic eligibility for those categories.
 
 Registration counts seen on the event page were roughly 310–318 during research. These count registered participants, not completed projects or competing teams; cached pages differed. Do not infer easy odds.
 
@@ -26,7 +28,7 @@ Plan for:
 - Exact QNX version, toolchain, target configuration and reproducible build/run instructions.
 - A working implementation and observable QNX integration.
 - English documentation, or the required translation.
-- A public demonstration video **under three minutes**.
+- A demonstration video uploaded to **YouTube and made publicly visible**, with its link in the submission. Target **under three minutes**, as judges need not watch longer.
 - Honest attribution of dependencies and pre-existing work.
 - A new submission repository for an OSS-port entry, containing the porting work and referencing upstream rather than passing off upstream fork/history as the submission.
 
